@@ -86,6 +86,11 @@ python main.py --dataset ogbn-arxiv --T 30 --outs 1 --threshold 5e-2 --no_shuffl
 python main.py --dataset ogbn-mag --T 8 --outs 8 --hids 64 --threshold 5e-3 --no_shuffle --bn
 ```
 
++ Ogbn-MAG
+```
+python main_dasgnn.py --dataset ogbn-mag --T 8 --outs 8 --hids 64 --threshold 5e-3 --no_shuffle --bn
+```
+
 ## Citation
 If you find this repository useful in your research, please consider giving a star ⭐ and a citation
 
